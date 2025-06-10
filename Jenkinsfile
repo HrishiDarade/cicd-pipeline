@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        NODE_VERSION = 'NodeJS 7.8.0'  // Static value
+        NODE_VERSION = 'NodeJS 24.2.0'
     }
     stages {
         stage('Initialize') {
